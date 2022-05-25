@@ -7,7 +7,6 @@ class Heap
 public:
     int data[SIZE];
     int heapsize;
-
     Heap()
     {
         heapsize = 0;
