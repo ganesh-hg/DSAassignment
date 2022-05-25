@@ -1,3 +1,4 @@
+//consider a telephonebook
 #include<iostream>
 #include<cstring>
 using namespace std;
