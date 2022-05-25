@@ -1,8 +1,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
-
-using namespace std;
-
+using namespace std
+    
 class Node{
 public:;
     char label[20];
@@ -17,12 +16,9 @@ Book()
 {
     root = NULL;
 }
-
 void create();
 void display(Node *r1);
-
 };
-
 void Book::create()
 {
     int chapters, i, j, k;
@@ -79,7 +75,6 @@ void Book::display(Node *r1)
                 cout<<"\n "<<r1->child[i]->child[j]->child[k]->label;
             }
             cout<<endl;
-
         }
     }
     }
